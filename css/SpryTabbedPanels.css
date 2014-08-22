@@ -1,0 +1,99 @@
+/* CSS Document */
+@charset "UTF-8";
+
+/* SpryTabbedPanels.css - Revision: Spry Preview Release 1.4 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* Horizontal Tabbed Panels
+ *
+ * The default style for a TabbedPanels widget places all tab buttons
+ * (left aligned) above the content panel.
+ */
+
+/* This is the selector for the main TabbedPanels container. For our
+ * default style, this container does not contribute anything visually,
+ * but it is responsible for clearing any floats that may cause the tab
+ * buttons and content panels to flow/wrap "funny" around floated image/block
+ * elements.
+ *
+ * If you want to constrain the width of the TabbedPanels widget, set a
+ * width on the TabbedPanels container. By default, the TabbedPanels widget
+ * expands horizontally to fill up available space.
+ *
+ * The name of the class ("TabbedPanels") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabbedPanels container.
+ */
+ 
+
+/*全体の幅や高さなどのレイアウト*/
+.TabbedPanels {
+	padding: 0px;
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*タブの幅や高さなどのレイアウト*/
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	background-color: #EAEAEA;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #000000;
+	outline:none;
+	text-align: center;
+	padding: 10px;
+}
+
+/*タブのオンマウス背景カラー*/
+.TabbedPanelsTabHover {
+	background-color: #DDDDDD;
+}
+
+/*タブのセレクトされた背景カラー*/
+.TabbedPanelsTabSelected {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+/*タブのテキストリンクカラー*/
+.TabbedPanelsTab a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/*コンテンツ*/
+.TabbedPanelsContentGroup {
+	clear: both;
+	border-left: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+	border-top: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	background-color: #FFFFFF;
+	padding: 15px;
+}
+
+.TabbedPanelsContent {
+	padding: 0px;
+}
+
+.TabbedPanelsContentVisible {
+}

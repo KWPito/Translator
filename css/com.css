@@ -1,0 +1,236 @@
+﻿@charset "utf-8";
+h1 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-shadow: #333 2px 2px 2px;
+}
+h2 {
+ margin-bottom: 5px;
+  font-size: 15px;
+
+}
+
+h3 {
+  position: relative;
+  left: 750px;
+  font-size:15px;
+}
+
+h4 {
+  margin:5px,5px,5px,5px;
+  float:left;
+  font-size:15px;
+}
+
+h5 {
+ margin-bottom: 5px;
+ font-size: 13px;
+
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+header {
+  height:140px;
+  background: #666;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 0 0  5px 5px;
+}
+
+#main {
+  float: right;
+  margin-right: 40px;
+  width: 720px;
+}
+
+#main:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0.1px;
+  font-size: 0.1em;
+  line-height: 0;
+  clear: both;
+}
+#left_box {
+  float: left;
+  width: 200px;
+  height:100%;
+  background: #eee;
+}
+#left_box:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0.1px;
+  font-size: 0.1em;
+  line-height: 0;
+  clear: both;
+}
+#main_input {
+  float: left;
+  margin-right: 40px;
+  width: 960px;
+}
+
+section {
+  font-size:15px;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  border-bottom: dotted 0px #ccc;
+}
+
+
+input#close_button {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 820px;
+    top: 25px;
+}
+
+input#distribute_ret_button {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 650px;
+    top: 25px;
+}
+
+input#update_button {
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 840px;
+    top: 10px;
+}
+
+input#common_update_button {
+    width: 120px;
+    height: 30px;
+    position: relative;
+    left: 800px;
+    top: 10px;
+}
+
+
+input#login_button {
+    width: 80px;
+    height: 30px;
+}
+
+input #reissue_button {
+    width: 80px;
+    height: 30px;
+}
+
+
+input#image_dlbutton {
+    width: 20px;
+    height: 20px;
+}
+
+div#admin_info {
+    position: relative;
+    left: 20px;
+    top: 25px;
+
+}
+
+
+#inputs table.style {
+        width: 960px;
+        border-collapse: collapse;
+}
+/* thの指定 */
+#inputs table.style th {
+        font-weight: normal;
+        background-color: #F0F0F0;
+        border:none;
+        text-align: center;
+        padding: 12px;
+}
+/* tr tdの指定 */
+#inputs table.style tr td {
+        width: 150px;
+        font-size:15px;
+        background-color: #FFFFFF;
+        border:none;
+        padding: 12px;
+        padding-bottom: 1px;
+        padding-top: 1px;
+}
+
+#search table.style {
+        width: 960px;
+        border-collapse: collapse;
+}
+/* thの指定 */
+#search table.style th {
+        font-weight: normal;
+		font-size:15px;
+        background-color: #F0F0F0;
+        border:none;
+        padding: 12px;
+}
+/* tr tdの指定 */
+#search table.style tr td {
+        font-size:15px;
+        background-color: #FFFFFF;
+        border:none;
+        padding: 12px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+}
+
+div#search {
+    font-size:18px;
+}
+
+table.tablesorter {
+width: 750px; /* 表の幅 */
+border: 1px #c0c0c0 solid; /* 大枠の境界線 */
+border-collapse: collapse;
+font-size: 80%;
+}
+
+/* --- 表タイトル --- */
+table.tablesorter caption {
+padding-bottom: 5px; /* 表タイトルの下パディング */
+}
+
+/* --- セル --- */
+table.tablesorter th,
+table.tablesorter td {
+/* width: 20%; */ /* セルの幅（セルの幅を均等にする場合） */
+padding: 6px 8px; /* セルのパディング（上下、左右） */
+border: 1px #c0c0c0 solid; /* セルの境界線 */
+}
+
+/* --- 見出しセル --- */
+table.tablesorter thead th {
+background-color: #deefff; /* 見出しセルの背景色 */
+text-align: center;
+font-size:15px  ;
+}
+
+/* --- フッタセル --- */
+table.tablesorter tfoot td {
+background-color: #f5f5f5; /* フッタセルの背景色 */
+}
+
+/* --- 表ボディ --- */
+table.tablesorter tbody {
+background-color: #ffffff; /* ボディの背景色 */
+font-size:12px  ;
+}
+
+/* --- マウスオーバー時 --- */
+table.tablesorter tbody tr:hover {
+background-color: #e5e5e5; /* 行の背景色 */
+}
+
